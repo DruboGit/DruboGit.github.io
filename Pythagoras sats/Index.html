@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PythCalc</title>
+    <script src="../Linking.js"></script>
+    <link rel="stylesheet" href="pyth.css">
+    <script src="pyth.js" defer></script>
+</head>
+<body>
+    <button onclick="Link('../index.html')">Back</button>
+    <div class="div_main">
+        <h1>Pythagoras sats</h1>
+        <div class="inner_div">
+            <p>Fixar Pythagoras sats för dig</p>
+            <select class="mina_inputs" id="minselect">
+                <option value="Katet">Du vet längd på på båda kateter</option>
+                <option value="Hypot">Du vet längs på hypotinusa och katet</option>
+            </select>
+            <br>
+            <input class="mina_inputs" id="input_vl" type="text" maxlength="6" size="6" placeholder="katet">
+            <input class="mina_inputs" id="input_v2" type="text" maxlength="6" size="6" placeholder="katet">
+            <button id="kalk_knapp">Beräkna</button>
+            <div id="svar_id"></div>
+        </div>
+
+    </div>
+</body>
+</html>
