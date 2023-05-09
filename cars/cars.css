@@ -1,0 +1,17 @@
+body {
+    background-color: honeydew;
+}
+.main_div {
+    padding: 5%;
+}
+
+.list_car_div{
+    background-color: white;
+    margin:1.2rem;
+    width: 50%;
+    border-radius: 1.2rem;
+    padding: 0.6rem;
+}
+h1  {
+    margin: 0.2rem;
+}
