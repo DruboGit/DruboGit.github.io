@@ -1,0 +1,20 @@
+body {
+    background-color: honeydew;
+}
+#joketime {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.div_main {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
